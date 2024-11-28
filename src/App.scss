@@ -1,0 +1,121 @@
+$primary-background: grey;
+$primary-text: black;
+$border-style:0px 4px 10px rgba(0, 0, 0, 0.2);
+
+.login-container {
+  display: flex;
+  height: 100vh;
+}
+
+.form-container {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px;
+  //margin: 50px;
+  width: 450px;
+  margin-left: 150px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  box-shadow: $border-style;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  background-image: url("./assets/loginbanner.png");
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 70%;
+}
+.buttonreg {
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex: 1;
+  display: flex;
+}
+.loginformstyle {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px;
+  //margin: 50px;
+  width: 450px;
+  margin-left: 150px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  box-shadow: $border-style;
+}
+.banner-image {
+  background-image: url('../src/assets/homebanner.png');
+  width: "100%";
+  height: 576px;
+  display: flex;
+  position: relative;
+}
+.backimgone{
+  position: absolute;
+  right: 58%;
+  top:10%
+}
+.backimgtwo{
+  position: absolute;
+  right: 44%;
+  top: 5%;
+}
+.backimgthree{
+  position: absolute;
+  right: 30%;
+  top:10%
+}
+.backimgfour{
+  position: absolute;
+  right: 16%;
+  top:5%  
+}
+.backimgfive{
+  position: absolute;
+  right: 2%;
+  top:10% 
+}
+.heading{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+.textbolt{
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bannertext{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+.banner-btn{
+  position: absolute;
+  top:50%;
+  left: 10%;
+  padding: 20px;
+  width: 200px;
+  box-shadow: $border-style;
+  background-color: #AD778D;
+  font-size: 20px;
+  color: white;
+}
+.category-text{
+ font-size: 20px;
+ display: flex;
+ justify-content: space-between;
+ margin:10px
+}
+.category-list{
+  display: flex;
+  justify-content: space-evenly;
+}
