@@ -26,6 +26,8 @@ const Login = () => {
         password:enterpwd
        }).then(responce =>{
         console.log(responce.data);
+       const token = responce.data.token
+        localStorage.setItem('token', token); 
         navigate('/home');
        }).catch(error =>{
         console.log(error);
